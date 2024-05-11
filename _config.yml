@@ -1,6 +1,6 @@
 ######## Stellar info ########
 stellar:
-  version: '1.27.0'
+  version: '1.28.1'
   homepage: 'https://xaoxuu.com/wiki/stellar/'
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
   main_css: /css/main.css
@@ -145,11 +145,15 @@ article:
     max_count: 5
 
 search:
-  service: local_search # local_search, todo...
+  service: local_search # local_search, algolia_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
     field: all # post, page, all
     path: /search.json # 搜索文件存放位置
     content: true # 是否搜索内容
+  algolia_search: # Docsearch https://docsearch.algolia.com/apply/ 申请
+    appId: 
+    apiKey: 
+    indexName: 
 
 
 ######## Comments ########
@@ -246,8 +250,8 @@ comments:
   # Artalk
   # https://artalk.js.org/
   artalk:
-    css: https://unpkg.com/artalk@2.7/dist/Artalk.css
-    js: https://unpkg.com/artalk@2.7/dist/Artalk.js
+    css: https://unpkg.com/artalk@2.8.5/dist/Artalk.css
+    js: https://unpkg.com/artalk@2.8.5/dist/Artalk.js
     server: # 后端服务地址
     placeholder: ''
     darkMode: auto
@@ -268,6 +272,9 @@ footer:
     # comments:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/942ebbf1a4b91.svg"/>'
     #   url: /about/#comments
+    # theme:
+    #   icon: default:theme
+    #   onclick: 'switchTheme()'
   sitemap:
     # '博客':
     #   - '[近期](/)'

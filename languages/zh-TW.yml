@@ -14,6 +14,7 @@ btn:
   getting_started: 開始使用
   edit: 編輯本文
   top: 回到頂部
+  comments: 參與討論
 
 meta:
   recent_update: 最近更新
@@ -52,6 +53,10 @@ search:
 
 message:
   copied: 複製成功
+  theme_switched:
+    light: 切換到淺色模式
+    dark: 切換到深色模式
+    auto: 切換到跟隨系統配色
 
 symbol:
   comma: "，"
