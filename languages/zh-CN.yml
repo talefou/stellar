@@ -42,6 +42,13 @@ meta:
     hour: 小时前
     day: 天前
     month: 个月前
+  wordcount:
+    count: 字数
+    words: 字
+    read_time: 时长
+  expire:
+    title: 文章时效提醒
+    message: 这篇文章上次更新于 %s 天前，部分信息可能已发生改变，请注意甄别
 
 page:
   error:
@@ -50,7 +57,7 @@ page:
     action: 返回主页
 
 search:
-  search: 站内搜索
+  search: 想找些什么？
   search_in: 在 %s 中搜索
   no_results: 没有找到内容！
 
